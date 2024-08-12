@@ -34,7 +34,7 @@
 #*.modelproj merge=binary
 #*.sqlproj   merge=binary
 #*.wwaproj   merge=binary
-#.sql linguist-detectable=true
+#*.sql linguist-detectable=true
 
 ###############################################################################
 # behavior for image files
