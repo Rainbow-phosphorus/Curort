@@ -21,9 +21,9 @@ namespace Игора
             Up();
         }
 
-        int i;
-        int h;
-        int j;
+        int seconds;
+        int minutes;
+        int hours;
         int k;
         DobavlKlienta dobavlKlienta;
         LoginHistory log;
@@ -61,36 +61,37 @@ namespace Игора
                 
             }
         }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if ((k == 0) && (h == 5))
+            if ((k == 0) && (minutes == 5))
             {
                 k++;
                 MessageBox.Show("Через 5 минут завершится сеанс");
             }
 
-            i++;
-            if (h == 60)
+            seconds++;
+            if (minutes == 60)
             {
-                j++;
-                h = 0;
-                label7.Text = j + ":" + h + ":" + i;
+                hours++;
+                minutes = 0;
+                label7.Text = hours + ":" + minutes + ":" + seconds;
             }
-            else if (i < 60)
+            else if (seconds < 60)
             {
-                label7.Text = j + ":" + h + ":" + i;
+                label7.Text = hours + ":" + minutes + ":" + seconds;
 
             }
-            else if (i == 60)
+            else if (seconds == 60)
             {
-                h++;
-                i = 0;
-                label7.Text = j + ":" + h + ":" + i;
+                minutes++;
+                seconds = 0;
+                label7.Text = hours + ":" + minutes + ":" + seconds;
             }
 
-            if (h == 10)
+            if (minutes == 10)
             {
-                h++;
+                minutes++;
                 Entrance f = new Entrance();
                 f.Bloc();
 
