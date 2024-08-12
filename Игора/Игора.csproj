@@ -113,121 +113,121 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutBox1.cs">
+    <Compile Include="functional foms\AboutBox1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutBox1.Designer.cs">
+    <Compile Include="functional foms\AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
-    <Compile Include="AcceptOrder.cs">
+    <Compile Include="functional foms\AcceptOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AcceptOrder.Designer.cs">
+    <Compile Include="functional foms\AcceptOrder.Designer.cs">
       <DependentUpon>AcceptOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin.cs">
+    <Compile Include="users\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin.Designer.cs">
+    <Compile Include="users\Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Checkout.cs">
+    <Compile Include="functional foms\Checkout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Checkout.Designer.cs">
+    <Compile Include="functional foms\Checkout.Designer.cs">
       <DependentUpon>Checkout.cs</DependentUpon>
     </Compile>
-    <Compile Include="DobavlKlienta.cs">
+    <Compile Include="functional foms\DobavlKlienta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DobavlKlienta.Designer.cs">
+    <Compile Include="functional foms\DobavlKlienta.Designer.cs">
       <DependentUpon>DobavlKlienta.cs</DependentUpon>
     </Compile>
-    <Compile Include="DobavSotrudnica.cs">
+    <Compile Include="functional foms\DobavSotrudnica.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DobavSotrudnica.Designer.cs">
+    <Compile Include="functional foms\DobavSotrudnica.Designer.cs">
       <DependentUpon>DobavSotrudnica.cs</DependentUpon>
     </Compile>
-    <Compile Include="DobavSotrudnica2.cs">
+    <Compile Include="functional foms\DobavSotrudnica2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DobavSotrudnica2.Designer.cs">
+    <Compile Include="functional foms\DobavSotrudnica2.Designer.cs">
       <DependentUpon>DobavSotrudnica2.cs</DependentUpon>
     </Compile>
-    <Compile Include="DobavYslygi.cs">
+    <Compile Include="functional foms\DobavYslygi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DobavYslygi.Designer.cs">
+    <Compile Include="functional foms\DobavYslygi.Designer.cs">
       <DependentUpon>DobavYslygi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="functional foms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="functional foms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginHistory.cs">
+    <Compile Include="functional foms\LoginHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginHistory.Designer.cs">
+    <Compile Include="functional foms\LoginHistory.Designer.cs">
       <DependentUpon>LoginHistory.cs</DependentUpon>
     </Compile>
-    <Compile Include="Othot.cs">
+    <Compile Include="functional foms\Othot.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Othot.Designer.cs">
+    <Compile Include="functional foms\Othot.Designer.cs">
       <DependentUpon>Othot.cs</DependentUpon>
     </Compile>
-    <Compile Include="Prodovex.cs">
+    <Compile Include="users\Prodovex.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Prodovex.Designer.cs">
+    <Compile Include="users\Prodovex.Designer.cs">
       <DependentUpon>Prodovex.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sqlconection.cs" />
-    <Compile Include="StarSmen.cs">
+    <Compile Include="users\StarSmen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StarSmen.Designer.cs">
+    <Compile Include="users\StarSmen.Designer.cs">
       <DependentUpon>StarSmen.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AboutBox1.resx">
+    <EmbeddedResource Include="functional foms\AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AcceptOrder.resx">
+    <EmbeddedResource Include="functional foms\AcceptOrder.resx">
       <DependentUpon>AcceptOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin.resx">
+    <EmbeddedResource Include="users\Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Checkout.resx">
+    <EmbeddedResource Include="functional foms\Checkout.resx">
       <DependentUpon>Checkout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DobavlKlienta.resx">
+    <EmbeddedResource Include="functional foms\DobavlKlienta.resx">
       <DependentUpon>DobavlKlienta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DobavSotrudnica.resx">
+    <EmbeddedResource Include="functional foms\DobavSotrudnica.resx">
       <DependentUpon>DobavSotrudnica.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DobavSotrudnica2.resx">
+    <EmbeddedResource Include="functional foms\DobavSotrudnica2.resx">
       <DependentUpon>DobavSotrudnica2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DobavYslygi.resx">
+    <EmbeddedResource Include="functional foms\DobavYslygi.resx">
       <DependentUpon>DobavYslygi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="functional foms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginHistory.resx">
+    <EmbeddedResource Include="functional foms\LoginHistory.resx">
       <DependentUpon>LoginHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Othot.resx">
+    <EmbeddedResource Include="functional foms\Othot.resx">
       <DependentUpon>Othot.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Prodovex.resx">
+    <EmbeddedResource Include="users\Prodovex.resx">
       <DependentUpon>Prodovex.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -240,7 +240,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="StarSmen.resx">
+    <EmbeddedResource Include="users\StarSmen.resx">
       <DependentUpon>StarSmen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -258,13 +258,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database1.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
-    </Content>
     <Content Include="image\Беляева.jpeg" />
     <None Include="image\Добавить.png" />
     <Content Include="image\Иванов.jpeg" />
@@ -289,6 +282,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
