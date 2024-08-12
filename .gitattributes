@@ -11,8 +11,8 @@
 # Note: This is only used by command line
 ###############################################################################
 #*.cs     diff=csharp
-*.sql linguist-detectable=true
-*.sql linguist-language=sql
+#*.sql linguist-detectable=true
+#*.sql linguist-language=sql
 
 ###############################################################################
 # Set the merge driver for project and solution files
