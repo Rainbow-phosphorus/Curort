@@ -43,7 +43,6 @@ namespace Игора
             string nowerCvart = textBox11.Text;
             string pohta = textBox12.Text;
             string password = textBox13.Text;
-            //INSERT INTO `client`(`familii`, `name`, `othestvo`, `id`, `seria`, `nomer`, `date_brit`, `indecs_adres`, `gorod`, `strit`, `nomer_doma`, `nomer_cvartire`, `e - mail`, `password`) VALUES('Сливкин', 'Денис', 'Сергеевич', '45462597', '3489', '567765', '2000-12-22', '456987', 'Воронеж', 'Ленина', '34', '23', 'sliva@qwer.com', 'rt67845')
             MySqlCommand cmd2 = new MySqlCommand($"INSERT INTO client (`familii`, `name`, `othestvo`, `seria`, `nomer`, `date_brit`, `indecs_adres`, `gorod`, `strit`, `nomer_doma`, `nomer_cvartire`, `e-mail`, `password`) VALUES (\"" + famil + "\", \"" + name+ "\", \""+othestvo+"\"," +
                 " \"" +seria+"\", \""+nomer+"\", \""+dateBrith+"\", \""+indecsAdres+"\", \""+gorod+"\", \""+strit+"\", \""+nomerDoma+"\", \""+nowerCvart+"\", \""+pohta+"\", \""+password+"\")", c.conection);
             cmd2.ExecuteNonQuery();

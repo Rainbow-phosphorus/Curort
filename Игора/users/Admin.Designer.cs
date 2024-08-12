@@ -39,7 +39,6 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.HistoryTool = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,7 +46,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -57,9 +55,10 @@
             // 
             this.GlavButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(140)))), ((int)(((byte)(81)))));
             this.GlavButton.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GlavButton.Location = new System.Drawing.Point(609, 54);
+            this.GlavButton.Location = new System.Drawing.Point(828, 65);
+            this.GlavButton.Margin = new System.Windows.Forms.Padding(4);
             this.GlavButton.Name = "GlavButton";
-            this.GlavButton.Size = new System.Drawing.Size(159, 37);
+            this.GlavButton.Size = new System.Drawing.Size(212, 46);
             this.GlavButton.TabIndex = 12;
             this.GlavButton.Text = "Выйти на главную ";
             this.GlavButton.UseVisualStyleBackColor = false;
@@ -69,9 +68,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(144, 132);
+            this.label3.Location = new System.Drawing.Point(197, 152);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 18);
+            this.label3.Size = new System.Drawing.Size(138, 24);
             this.label3.TabIndex = 11;
             this.label3.Text = "Администратор";
             // 
@@ -79,29 +79,32 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(144, 89);
+            this.label2.Location = new System.Drawing.Point(197, 109);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 18);
+            this.label2.Size = new System.Drawing.Size(44, 24);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Лариса";
+            this.label2.Text = "Имя";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(141, 54);
+            this.label1.Location = new System.Drawing.Point(197, 65);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 18);
+            this.label1.Size = new System.Drawing.Size(84, 24);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Гузеева";
+            this.label1.Text = "Фамилия";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(3, 168);
+            this.label6.Location = new System.Drawing.Point(4, 207);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 18);
+            this.label6.Size = new System.Drawing.Size(127, 24);
             this.label6.TabIndex = 14;
             this.label6.Text = "Время сеанса:";
             // 
@@ -109,9 +112,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(95, 168);
+            this.label7.Location = new System.Drawing.Point(127, 207);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(40, 18);
+            this.label7.Size = new System.Drawing.Size(50, 24);
             this.label7.TabIndex = 15;
             this.label7.Text = "0:0:0";
             // 
@@ -127,15 +131,14 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.HistoryTool,
-            this.toolStripMenuItem2,
             this.toolStripMenuItem3,
             this.toolStripMenuItem1,
             this.toolStripMenuItem4,
             this.toolStripMenuItem5});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(790, 27);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1053, 32);
             this.menuStrip1.TabIndex = 16;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -143,23 +146,15 @@
             // 
             this.HistoryTool.ForeColor = System.Drawing.Color.Black;
             this.HistoryTool.Name = "HistoryTool";
-            this.HistoryTool.Size = new System.Drawing.Size(118, 23);
+            this.HistoryTool.Size = new System.Drawing.Size(146, 28);
             this.HistoryTool.Text = "История входа";
             this.HistoryTool.Click += new System.EventHandler(this.HistoryTool_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.ForeColor = System.Drawing.Color.Black;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(172, 23);
-            this.toolStripMenuItem2.Text = "Расходные материалы";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.ForeColor = System.Drawing.Color.Black;
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(72, 23);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(86, 28);
             this.toolStripMenuItem3.Text = "Отчёты";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
@@ -167,7 +162,7 @@
             // 
             this.toolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(82, 23);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(98, 28);
             this.toolStripMenuItem1.Text = "Клиенты";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -175,7 +170,7 @@
             // 
             this.toolStripMenuItem4.ForeColor = System.Drawing.Color.Black;
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(99, 23);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(120, 28);
             this.toolStripMenuItem4.Text = "Сотрудники";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
@@ -183,7 +178,7 @@
             // 
             this.toolStripMenuItem5.ForeColor = System.Drawing.Color.Black;
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(109, 23);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(133, 28);
             this.toolStripMenuItem5.Text = "О программе";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
@@ -191,47 +186,40 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 53);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 65);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(132, 113);
+            this.pictureBox1.Size = new System.Drawing.Size(176, 139);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 211);
+            this.dataGridView1.Location = new System.Drawing.Point(4, 260);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(775, 117);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(1033, 176);
             this.dataGridView1.TabIndex = 17;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(3, 190);
+            this.label4.Location = new System.Drawing.Point(4, 234);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 18);
+            this.label4.Size = new System.Drawing.Size(165, 24);
             this.label4.TabIndex = 18;
             this.label4.Text = "Неудачные входы:";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(3, 334);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(171, 18);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Количество таблиц в БД: ";
-            // 
             // Admin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(790, 365);
-            this.Controls.Add(this.label5);
+            this.ClientSize = new System.Drawing.Size(1053, 449);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
@@ -244,6 +232,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Admin";
             this.Text = "Администратор";
             this.Load += new System.EventHandler(this.Admin_Load);
@@ -268,13 +257,11 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem HistoryTool;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
     }
 }

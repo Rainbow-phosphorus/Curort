@@ -75,7 +75,7 @@ namespace Игора
 
             string date = textBox1.Text;
 
-            MySqlCommand mySqlCommand = new MySqlCommand("SELECT * FROM sotrudnici WHERE last_vxod = \"" + date + "\"", c.conection);
+            MySqlCommand mySqlCommand = new MySqlCommand("SELECT * FROM sotrudnici WHERE DATA(last_vxod) = \"" + date + "\"", c.conection);
             MySqlDataAdapter sqlDataAdapter = new MySqlDataAdapter(mySqlCommand);
             DataTable dt3 = new DataTable();
             sqlDataAdapter.Fill(dt3);

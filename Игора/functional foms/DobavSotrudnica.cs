@@ -41,7 +41,6 @@ namespace Игора
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //c.conection.Open();
             this.c.Sqlopen();
             int id;
             if(int.TryParse(textBox9.Text, out id))

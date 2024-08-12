@@ -38,7 +38,6 @@ namespace Игора
             string statys = comboBox1.Text;
             string datezacrat =Convert.ToString(monthCalendar2.SelectionRange.Start.ToShortDateString());
             string timeprocata = textBox4.Text;
-            //(id, cod_zacaza, date_sozd, time_sozd, cod_clienta, yslygi, statys, date_zacr, time_procata)
             MySqlCommand sqlCommand = new MySqlCommand($"INSERT INTO zakaz (cod_zacaza, date_sozd, time_sozd, cod_clienta, yslygi, statys, date_zacr, time_procata) VALUES (\"" +cod+"\",  \""+date+"\",  \""+time+"\",  \""+codclienta+"\",  \""+yslygi+"\",  \""+statys+"\",  \""+datezacrat+"\",  \""+timeprocata+"\") ",c.conection);
             sqlCommand.ExecuteNonQuery();
             c.Sqlclose();

@@ -34,16 +34,14 @@ namespace Игора
         public void Up()
         {
             c.Sqlopen();
-            //входы
+     
             MySqlCommand cmd = new MySqlCommand("CALL Inputs", c.conection);
             MySqlDataAdapter mySqlDataAdapter = new MySqlDataAdapter(cmd);
             DataTable dataTable = new DataTable();
             mySqlDataAdapter.Fill(dataTable);
             dataGridView1.DataSource= dataTable;
-            //информация о базе
-            MySqlCommand cmd2 = new MySqlCommand("CALL Info", c.conection);
-            MySqlDataAdapter mySqlDataAdapter2 = new MySqlDataAdapter(cmd2);
-            label5.Text += cmd2.ExecuteScalar().ToString();
+
+
             c.Sqlclose();
         }
 
@@ -124,11 +122,6 @@ namespace Игора
         {
             this.Close();
             ForClosing();
-        }
-
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)

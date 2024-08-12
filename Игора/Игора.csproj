@@ -119,12 +119,6 @@
     <Compile Include="functional foms\AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
-    <Compile Include="functional foms\AcceptOrder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="functional foms\AcceptOrder.Designer.cs">
-      <DependentUpon>AcceptOrder.cs</DependentUpon>
-    </Compile>
     <Compile Include="users\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,9 +190,6 @@
     </Compile>
     <EmbeddedResource Include="functional foms\AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="functional foms\AcceptOrder.resx">
-      <DependentUpon>AcceptOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="users\Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>

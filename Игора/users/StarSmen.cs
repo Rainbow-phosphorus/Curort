@@ -24,7 +24,6 @@ namespace Игора
         int k;
 
         Checkout checkout;
-        AcceptOrder acceptOrder;
         DobavYslygi dobavYslygi;
         AboutBox1 aboutBox1;
 
@@ -85,7 +84,7 @@ namespace Игора
 
         private void ForClosing()
         {
-            Form[] forms = { checkout, acceptOrder, dobavYslygi, aboutBox1 };
+            Form[] forms = { checkout, dobavYslygi, aboutBox1 };
             for (int i = 0; i < forms.Length; i++)
             {
                 if (forms[i] != null)
@@ -105,12 +104,6 @@ namespace Игора
         {
             checkout = new Checkout();
             checkout.Show();
-        }
-
-        private void AcceptTool_Click(object sender, EventArgs e)
-        {
-            acceptOrder = new AcceptOrder();
-            acceptOrder.Show();
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
